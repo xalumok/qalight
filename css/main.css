@@ -1,0 +1,129 @@
+body, html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    display:block;
+}
+
+
+#header, #footer{
+    background-color: rgba(12, 65, 90, 0.23);
+}
+
+#header ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: inline-block;
+}
+
+#header li{
+    display: inline-block;
+    margin: 20px 24px;
+}
+
+#header li > a{
+    font-size: 20px;
+    padding: 6px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+
+#header li > a.active{
+    color: red;
+}
+
+#header li > a:hover{
+    color: #fff;
+}
+
+#header li > a.active:hover{
+    color: red;
+    cursor: default;
+}
+
+#header .logo{
+    display: inline-block;
+    float: left;
+    margin: 5px;
+}
+
+#main{
+    flex: 1 0 auto;
+    background: url('../pics/main-bg.png') no-repeat center center;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.main-page h1{
+    color:#002976;
+    font-size: 50px;
+}
+
+.main-page h2{
+    font-weight:300;
+    font-size:18px;
+    max-width:600px;
+    margin:0 auto 50px;
+}
+
+.text-center{
+    text-align:center;
+}
+
+.container.main-page{
+    max-width: 1000px;
+}
+
+#footer{
+    padding: 25px 0;
+}
+
+.about-text{
+    margin-top: 30px;
+}
+
+.about-text img{
+    margin: auto 25px 25px auto;
+    float:left;
+}
+
+.news-item{
+    background-color: #fff;
+    box-shadow: 1px 3px 5px 2px #ccc;
+    padding: 20px;
+    margin:20px 0;
+    border-radius: 3px;
+}
+
+.news-item h2{
+    margin-top: 0;
+}
+
+div.tab-frame input{ display:none;}
+div.tab-frame label{ display:block; float:left;padding:5px 10px; cursor:pointer}
+div.tab-frame input:checked + label{ background:black; color:white; cursor:default}
+div.tab-frame div.tab{ display:none; padding:5px 10px;clear:left}
+
+div.tab-frame input:nth-of-type(1):checked ~ .tab:nth-of-type(1),
+div.tab-frame input:nth-of-type(2):checked ~ .tab:nth-of-type(2),
+div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;}
+
+
+
+div.tab-frame{
+    box-shadow: 1px 3px 5px 2px #ccc;
+    background-color: #fff;
+}
