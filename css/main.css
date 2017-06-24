@@ -115,7 +115,7 @@ body{
 div.tab-frame input{ display:none;}
 div.tab-frame label{ display:block; float:left;padding:5px 10px; cursor:pointer}
 div.tab-frame input:checked + label{ background:black; color:white; cursor:default}
-div.tab-frame div.tab{ display:none; padding:5px 10px;clear:left}
+div.tab-frame div.tab{ display:none; padding:20px 20px;clear:left; width: 650px; height: 230px;}
 
 div.tab-frame input:nth-of-type(1):checked ~ .tab:nth-of-type(1),
 div.tab-frame input:nth-of-type(2):checked ~ .tab:nth-of-type(2),
@@ -126,4 +126,48 @@ div.tab-frame input:nth-of-type(3):checked ~ .tab:nth-of-type(3){ display:block;
 div.tab-frame{
     box-shadow: 1px 3px 5px 2px #ccc;
     background-color: #fff;
+}
+
+.tab div, span{
+    font-family:arial,sans-serif !important;
+    color:#878787;
+    font-weight: lighter;
+}
+
+.tab img{
+    width: 100px;
+    height:auto;
+}
+
+.main-info{
+    display:inline-block;
+}
+
+.placement{
+    margin-top: 8px;
+    font-size: 35px;
+    font-weight: lighter;
+    color: #878787;
+    font-family: arial, sans-serif;
+}
+
+.temperature{
+    color:black;
+    font-weight: normal;
+    font-size: 60px;
+    vertical-align: 50%;
+}
+
+.celsium {
+    color: black;
+    font-weight: normal;
+    font-size: 18px;
+    vertical-align: 300%;
+}
+
+.weather-more-info {
+    margin-top: 5px;
+    float: right;
+    font-size: 20px;
+    display: inline-block;
 }
