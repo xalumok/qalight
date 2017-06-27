@@ -17,7 +17,13 @@ body{
 
 
 #header, #footer{
-    background-color: rgba(12, 65, 90, 0.23);
+    background-color: #c7d9e2;
+}
+
+
+#header{
+    position: fixed;
+    width: 100%;
 }
 
 #header ul{
@@ -61,6 +67,7 @@ body{
 }
 
 #main{
+    margin-top: 74px;
     flex: 1 0 auto;
     background: url('../pics/main-bg.png') no-repeat center center;
     background-size: cover;
