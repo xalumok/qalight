@@ -12,7 +12,7 @@ body{
 
 
 .container{
-    max-width: 1000px;
+    max-width: 1250px;
     margin: 0 auto;
     display:block;
 }
@@ -42,7 +42,7 @@ body{
 }
 
 #header li > a{
-    font-size: 20px;
+    font-size: 16px;
     padding: 6px 15px;
     text-decoration: none;
     text-transform: uppercase;
@@ -179,4 +179,134 @@ div.tab-frame{
     float: right;
     font-size: 20px;
     display: inline-block;
+}
+
+.reply-textarea{
+    min-width: 800px;
+    min-height: 200px;
+    resize: none;
+}
+
+.styled-button{
+    font-size: 15px;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: 2px solid blue;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.styled-button:hover{
+    background-color: blue;
+    color: white;
+}
+
+.login-form{
+    text-align: left;
+    display: inline-block;
+    padding: 130px 300px;
+    width: 250px;
+    text-align: center;
+}
+
+.login-form label, input{
+    margin: 2px 0;
+}
+
+.login-form label{
+    float: left;
+}
+
+.login-form input{
+    float: right;
+}
+
+.login-form button{
+    margin: 10px 10px;
+}
+
+.cover-for-login{
+    text-align: center;
+}
+
+.register-form input, select{
+    padding: 8px 1px;
+    margin: 5px 0;
+}
+
+select{
+    border: none;
+    border-radius: 4px;
+    background-color: #e6e6e6;
+    padding: 9px 16px;
+    margin: 3px 0;
+}
+
+.register-button{
+
+    float: right;
+    font-size: 15px;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: 2px solid grey;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.register-button:hover{
+    background-color: grey;
+    color: white;
+}
+
+.login-button{
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border: 2px solid grey;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.login-button:hover{
+    background-color: grey;
+    color: white;
+}
+
+.register-form{
+    width: 500px;
+}
+
+.register-form label{
+    float: left;
+}
+
+.register-button input, select{
+    /*float: right;*/
+}
+
+.labels{
+    display: inline-block;
+    float: left;
+}
+
+.labels label{
+    margin: 12px 5px;
+}
+
+.inputs{
+    float: right;
+    width: 75%;
+}
+.inputs input{
+    width: 100%;
+}
+
+.select-country, .select-gender{
+    width: 100%;
 }

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QALight</title>
+    <link rel="icon" href="../pics/favicon.ico">
+    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+
+</head>
+<body>
+
+
+<div id="header">
+    <div class="container">
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../pics/logo.png" alt="logo">
+            </a>
+        </div>
+        <ul>
+            <li><a href="../index.html">Головна</a></li>
+            <li><a href="about.html">Про сайт</a></li>
+            <li><a href="blog.html">Блог</a></li>
+            <li><a href="contacts.html">Контакти</a></li>
+            <li><a href="weather.html">Погода</a></li>
+            <li><a href="login.html">Вхід</a></li>
+            <li><a href="javascript:void(0)" class="active">Реєстрація</a></li>
+
+
+        </ul>
+    </div>
+</div>
+
+<div id="main">
+    <div class="container">
+        <h1>Реєстрація</h1>
+        <hr>
+        <div class="register-form">
+
+            <form action="prodam-garage.php" method="post">
+                <div class="labels">
+                    <label for="first-name">First name</label>
+                    <br>
+                    <label for="last-name">Last name</label>
+                    <br>
+                    <label for="nickname" >Nickname</label>
+                    <br>
+                    <label>Date of birth</label>
+                    <br>
+                    <label>Gender</label>
+                    <br>
+                    <label>Country</label>
+                    <br>
+                    <label for="email" >Email</label>
+                    <br>
+                    <label for="password">Password</label>
+                    <br>
+                </div>
+
+                <div class="inputs">
+                    <input type="text" id="first-name" placeholder="Enter first name...">
+                    <br>
+                    <input type="text" id="last-name" placeholder="Enter last name...">
+                    <br>
+                    <input type="text" id="nickname" placeholder="Enter nickname...">
+                    <br>
+                    <select name="date-day" id="date-day">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <select name="date-month" id="date-month">
+                        <option value="may">May</option>
+                        <option value="march">March</option>
+                        <option value="august">August</option>
+                        <option value="september">September</option>
+                        <option value="october">October</option>
+                    </select>
+                    <select name="date-year" id="date-year">
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                        <option value="2003">2003</option>
+                        <option value="2004">2004</option>
+                        <option value="2005">2005</option>
+                    </select>
+                    <br>
+                    <select class="select-gender" name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                    <br>
+                    <select class="select-country" name="input-country" id="input-country">
+                        <option value="unkraine">Ukraine</option>
+                        <option value="poland">Poland</option>
+                        <option value="france">France</option>
+                        <option value="netherlands">Netherlands</option>
+                        <option value="sweden">Sweden</option>
+                    </select>
+                    <br>
+                    <input type="text" id="email" placeholder="Enter e-mail...">
+                    <br>
+                    <input type="password" id="password" placeholder="Enter password...">
+                    <br>
+                    <button type="submit" class="register-button">Register</button>
+                </div>
+            </form>
+
+        </div>
+
+
+    </div>
+</div>
+
+<div id="footer">
+    <div class="container">
+        <span>My site name © 2017 All right reserved</span>
+    </div>
+</div>
+
+</body>
+</html>
